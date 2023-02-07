@@ -13,15 +13,10 @@ if(isset($_POST['sub'])){
     $status = $_POST['status'];
       //insert in to database
     $sql= $pdo->query("SELECT * FROM countries");
-    $rs_last_id = $pdo->query($sql);
-    $row = $rs_last_id->fetchObject();
-    $sql = $pdo->query("INSER INTO countries ('country_id','country_name','status') VALUES ('', 'MYTEST', '1') ");
-
-    $rs = $pdo->query("SELECT @LID as LAST_ID");
-    $row = $rs->fetchObject();
-    //echo 'Last Insert Id '. $row->LAST_ID;
-  
-    header('Location:view_countries.php?lastId='.$row->LAST_ID);
+    while($rows = $pdo->fetch_array($sql))
+     {
+   
+         header('Location:view_countries.php?lastId='.$row->LAST_ID);
     }
 
 ?>
