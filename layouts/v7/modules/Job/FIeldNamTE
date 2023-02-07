@@ -1,0 +1,30 @@
+{else if in_array($LISTVIEW_HEADER->get('uitype'),array(13061))}
+                   
+                     {vtranslate($LISTVIEW_HEADER->getDisplayValue({$LISTVIEW_ENTRY_VALUE},{$LISTVIEW_ENTRY_VALUE}))}
+                     
+
+                  {else if in_array($LISTVIEW_HEADER->get('uitype'),array(13062))}
+                   {if !empty($LISTVIEW_ENTRY_VALUE)} 
+                     {vtranslate($LISTVIEW_HEADER->getDisplayValue({$LISTVIEW_ENTRY_VALUE},{$LISTVIEW_ENTRY_VALUE}))}
+                    {else}{/if}
+                   {else if in_array($LISTVIEW_HEADER->get('uitype'),array(13063))}
+                   {if !empty($LISTVIEW_ENTRY_VALUE)} 
+                     {vtranslate($LISTVIEW_HEADER->getDisplayValue({$LISTVIEW_ENTRY_VALUE},{$LISTVIEW_ENTRY_VALUE}))}
+                    {else}{/if}
+                  {else if in_array($LISTVIEW_HEADER->get('uitype'),array(13064))}
+                   {if !empty($LISTVIEW_ENTRY_VALUE)} 
+                     {vtranslate($LISTVIEW_HEADER->getDisplayValue({$LISTVIEW_ENTRY_VALUE},{$LISTVIEW_ENTRY_VALUE}))}
+                    {else}{/if}
+
+                  {else if in_array($LISTVIEW_HEADER->get('uitype'),array(14061))}
+                   {if !empty($LISTVIEW_ENTRY_VALUE)} 
+                     {vtranslate($LISTVIEW_HEADER->getDisplayValue({$LISTVIEW_ENTRY_VALUE},{$LISTVIEW_ENTRY_VALUE}))}
+                    {else}{/if}
+
+                  
+                    {else if in_array($LISTVIEW_HEADER->get('uitype'),array(15071))}
+                   {if !empty($LISTVIEW_ENTRY_VALUE)} 
+                     {vtranslate($LISTVIEW_HEADER->getDisplayValue({$LISTVIEW_ENTRY_VALUE},{$LISTVIEW_ENTRY_VALUE}))}
+                    {else}{/if}
+                                          
+                             

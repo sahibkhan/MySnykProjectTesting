@@ -1,0 +1,1 @@
+ALTER TABLE `vtiger_jer` ADD `fleettripid` INT(11) NULL DEFAULT NULL AFTER `accountid`, ADD `roundtripid` INT(11) NULL DEFAULT NULL AFTER `fleettripid`;

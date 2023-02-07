@@ -1,0 +1,9 @@
+Testing Demo 01-18-2023 with Mehtab shah
+FleetTrip expense is reflected on the job costing section on the job 
+ All things as well  so for 
+Add new points 
+1)Add the Invoice date into the crmentity_table for the report 
+2) Reflect the expense on the job expense portion expense variation.
+update the jobexpensereport table 
+
+I have done these all today 01-18-2023 after my test

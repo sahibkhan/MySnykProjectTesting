@@ -1,0 +1,78 @@
+body,p{
+  font-size:13px;
+}
+
+
+table {
+  border-spacing:0;
+}
+
+
+.quotation-header tr td{
+  border:1.2px solid;
+}
+
+.greeting-block {
+  font-size:14px;
+}
+
+
+.remarks-block  {
+  font-size:14px;
+}
+
+.remarks-block table tr td {
+  border:0.1px solid;
+  padding:5px;
+}
+
+.route-block tr td {
+  border:0.1px solid;
+}
+.route-block  {
+  margin-bottom:10px;
+}
+
+
+
+
+.tbl-remarks  h3 {
+  font-size:28px;
+}
+
+.terms-and-condition-block {
+  font-size:14px;
+}
+.best-regards-block {
+  font-size:14px;
+}
+
+h3 {
+  font-size:14px;
+  font-weight:bold;
+}
+
+
+
+strong {
+  font-weight:bold;
+}
+
+.route-block strong {
+  font-weight:normal;
+}
+.td-origin strong {
+  font-weight:normal;
+}
+
+
+.td-origin {
+  width:30%;
+}
+
+.td-destionation {
+  width:30%;
+}
+
+
+

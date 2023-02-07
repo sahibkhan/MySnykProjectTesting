@@ -1,0 +1,1 @@
+{include file="DetailViewHeaderSummary.tpl"|vtemplate_path:$MODULE}
