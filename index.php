@@ -12,11 +12,11 @@ if(isset($_POST['sub'])){
 
     $status = $_POST['status'];
       //insert in to database
-    $pdo->query("CALL UPDATE_LAST_INSERT_ID(@LAST_ID)");
-    $rs_last_id = $pdo->query("SELECT @LAST_ID as LAST_INSERT_ID");
+    $sql= $pdo->query("SELECT * FROM countries");
+    $rs_last_id = $pdo->query($sql);
     $row = $rs_last_id->fetchObject();
-  
-    $sql = $pdo->query("CALL InsertCountryDetail('".$row->LAST_INSERT_ID."','".$country_name."','".$status."',@LID)");
+    $sql = $pdo->query("INSER INTO countries ('country_id','country_name','status') VALUES ('', 'MYTEST', '1') ");
+
     $rs = $pdo->query("SELECT @LID as LAST_ID");
     $row = $rs->fetchObject();
     //echo 'Last Insert Id '. $row->LAST_ID;
@@ -67,3 +67,7 @@ if(isset($_POST['sub'])){
 </div>
 </body>
 </html>
+
+
+
+
